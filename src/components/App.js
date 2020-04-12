@@ -12,7 +12,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        welcome { this.props.profile.name }
+        <p>
+          welcome { this.props.profile.name } 
+        </p>
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
       </div>
     );
   }
